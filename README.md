@@ -22,5 +22,5 @@ C++ 코딩테스트 스터디 코드 저장소 입니다.
 | |1|2|3|4|Aditional Problem|
 |:-:|:-:|:-:|:-:|:-:|:-:|
 |1주차(05.13~05.19)|[평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)|[정수 내림차순 배치](https://school.programmers.co.kr/learn/courses/30/lessons/12933)|[두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912)||[이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)<br/>[정수삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) |
-|2주차(05.20~05.26)|[숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|[짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)|[구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|[이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)|
-|3주차(05.27~06.02)|
+|2주차(05.20~05.25)|[숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|[짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)|[구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|[이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)|
+|3주차(05.27~06.01)|
