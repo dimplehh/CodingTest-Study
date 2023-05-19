@@ -19,5 +19,5 @@ C++ 코딩테스트 스터디 코드 저장소 입니다.
 
 | |1|2|3|-|
 |:-:|:-:|:-:|:-:|:-:|
-|1주차(03.25~03.31)|[평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)|[정수 내림차순 배치](https://school.programmers.co.kr/learn/courses/30/lessons/12933)|[두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912)|[이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)|
-|2주차(04.01~04.07)|
+|1주차(05.13~05.19)|[평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)|[정수 내림차순 배치](https://school.programmers.co.kr/learn/courses/30/lessons/12933)|[두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912)|[이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)<br/>[정수삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) |
+|2주차(05.20~05.26)|
