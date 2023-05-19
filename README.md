@@ -15,12 +15,12 @@ C++ 코딩테스트 스터디 코드 저장소 입니다.
    * 2주차 3번문제: ```2_3_hyunhee.cpp``` 
    * 4주차 추가문제 2개 푼 경우: ```2_A1_hyunhee.cpp```, ```2_A2_hyunhee.cpp``` 
 * 커밋 내용은 자유롭게
-* 비고 ```-```폴더는 추가적인 문제나 개인적으로 학습한 문제를 자유롭게 올리기
+* 비고 ```Aditional Problem```폴더는 추가적인 문제나 개인적으로 학습한 문제를 자유롭게 올리기
 
 ## 문제 일정 ##
 
-| |1|2|3|Aditional Problem|
-|:-:|:-:|:-:|:-:|:-:|
-|1주차(05.13~05.19)|[평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)|[정수 내림차순 배치](https://school.programmers.co.kr/learn/courses/30/lessons/12933)|[두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912)|[이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)<br/>[정수삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) |
+| |1|2|3|4|Aditional Problem|
+|:-:|:-:|:-:|:-:|:-:|:-:|
+|1주차(05.13~05.19)|[평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)|[정수 내림차순 배치](https://school.programmers.co.kr/learn/courses/30/lessons/12933)|[두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912)||[이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)<br/>[정수삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) |
 |2주차(05.20~05.26)|[숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|[짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)|[구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|[이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)|
 |3주차(05.27~06.02)|
