@@ -13,12 +13,13 @@ C++ 코딩테스트 스터디 코드 저장소 입니다.
         * 예) ```1주차```폴더 -> ```문제이름``` 폴더 -> ```hyunhee.cpp``` 
 * 소스코드 파일은 누구 파일인지 알아볼 수 있게 작성
 * 커밋 내용은 자유롭게
-* 비고 ```-```폴더는 추가적인 문제나 개인적으로 학습한 문제를 자유롭게 올리기
+* 문제 ```4```는 보너스 문제
 
 ## 문제 일정 ##
 
-| |1|2|3|4|-|
-|:-:|:-:|:-:|:-:|:-:|:-:|
-|1주차(05.13~05.19)|[평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)|[정수 내림차순 배치](https://school.programmers.co.kr/learn/courses/30/lessons/12933)|[두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912)||[이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)<br/>[정수삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) |
+| |1|2|3|4|
+|:-:|:-:|:-:|:-:|:-:|
+|1주차(05.13~05.19)|[평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)|[정수 내림차순 배치](https://school.programmers.co.kr/learn/courses/30/lessons/12933)|[두 정수 사이의 합](https://school.programmers.co.kr/learn/courses/30/lessons/12912)|[이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)<br/>[정수삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105) |
 |2주차(05.20~05.25)|[숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)|[짝지어 제거하기](https://school.programmers.co.kr/learn/courses/30/lessons/12973)|[구명보트](https://school.programmers.co.kr/learn/courses/30/lessons/42885)|[이중우선순위큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)|
-|3주차(05.27~06.01)|
+|3주차(05.26~05.31)|[체육복](https://school.programmers.co.kr/learn/courses/30/lessons/42862)|[괄호 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/76502)|[타겟 넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)|[최고의 집합](https://school.programmers.co.kr/learn/courses/30/lessons/12938)|
+
