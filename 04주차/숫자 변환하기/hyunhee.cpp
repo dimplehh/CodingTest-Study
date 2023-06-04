@@ -3,7 +3,7 @@
 #include <iostream>
 
 using namespace std;
-int answer;
+int answer; 
 void DFS(int x, int y, int n, int count){
     if(x == y)
     {
