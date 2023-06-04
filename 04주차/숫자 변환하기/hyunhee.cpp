@@ -3,15 +3,12 @@
 #include <queue>
 #include <set>
 using namespace std;
-
 int solution(int x, int y, int n)
 {
+    int answer = 0;
 	if (x == y)
 		return 0;
 
-	int answer{ 0 };
-
-	// 숫자, Lv(== 횟수)
 	queue<pair<int,int>> queue;
 	set<int> set;
 
@@ -51,36 +48,3 @@ int solution(int x, int y, int n)
 
 	return answer;
 }
-
-
-/*#include <string>
-#include <vector>
-#include <iostream>
-
-using namespace std; 
-int answer; 
-void DFS(int x, int y, int n, int count){
-    if(x == y)
-    {
-        if(answer == 0 || count < answer)
-        {
-            answer = count;
-        }
-        return ;
-    }
-    else if(answer != 0 && count > answer)
-        return;
-    else if(x > y)
-        return;
-    DFS(x * 3, y, n, count + 1);
-    DFS(x * 2, y, n, count + 1);
-    DFS(x + n, y, n, count + 1);
-}
-
-int solution(int x, int y, int n) {
-    answer = 0;
-    DFS(x, y, n, 0);
-    if(x != y && answer == 0)
-        answer = -1;
-    return answer;
-}*/
