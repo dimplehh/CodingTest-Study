@@ -4,19 +4,19 @@
 using namespace std;
 vector<pair<int, int>> v[51];
 vector<int> dist;
-//다익스트라
+
 void dijkstra()
 {
     int pos;
-    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> q;//우선순위큐에만 top()존재함.
-    q.push({1, 0});
+    priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> q;//우선순위큐에만 top()존재함. 가중치 낮은것부터 정렬되어야 함.
+    q.push({0, 1});
     while(!q.empty()){
-        pos = q.top().first;
+        pos = q.top().second;
         q.pop();
         for(int i = 0; i<v[pos].size(); i++){
             if(dist[v[pos][i].first] > dist[pos] + v[pos][i].second){ //dist에 저장된 최소거리보다 새로 계산한 값이 더 최솟값이므로 이때만 새로운 연산 필요
                 dist[v[pos][i].first] = dist[pos] + v[pos][i].second;
-                q.push({v[pos][i].first, v[pos][i].second});
+                q.push({v[pos][i].second, v[pos][i].first});
             }
         }
     }
