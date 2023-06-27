@@ -1,4 +1,4 @@
-//첫 시도 DFS : 테케는 성공하지만 조금이라도 배열 커졌을 시 segfault 발생
+//첫 시도 DFS : 테케는 성공하지만 효율성 테스트 실패
 #include<vector>
 #include<iostream>
 using namespace std;
@@ -6,11 +6,11 @@ bool visited[101][101];
 int answer = 10001;
 void DFS(int x, int y, vector<vector<int>> maps, int count)
 {
-    if(x < 0 || y < 0 || x >= maps[0].size() || y >= maps[1].size())
+    if(x < 0 || y < 0 || x >= maps.size() || y >= maps[0].size()) //maps주의 maps[1]아니라 maps라고 해야 길이임.
         return;
     else if(maps[x][y] == 0 || visited[x][y])
         return;
-    else if(x == maps[0].size() - 1 && y == maps[1].size() - 1)
+    else if(x == maps.size() - 1 && y == maps[0].size() - 1)
     {
         if (answer > count)
             answer = count;
