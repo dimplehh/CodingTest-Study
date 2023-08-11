@@ -12,10 +12,8 @@ vector<int> solution(vector<string> keymap, vector<string> targets) {
     for (int i ='A'-'A'; i <= 'Z'-'A';i++)
         mp['A' + i] = INF;
     for(auto key: keymap)
-    {
         for(int i = 0; i < key.size(); i++)
             mp[key[i]] = MIN(mp[key[i]],i + 1);
-    }
     for(auto target:targets)
     {
         int temp = 0;
