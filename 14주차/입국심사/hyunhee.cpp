@@ -6,7 +6,7 @@ using namespace std;
 long long solution(int n, vector<int> times) {
     long long answer = 0;
     long long min = 1;
-    long long max = (long long)*max_element(times.begin(), times.end()) * n; //왜?
+    long long max = (long long)n *times[0]; //1000000000이 아닌, 더 큰 n * times가 되어야 함(처음 오류의 원인)
     long long mid;
     long long sum;
 
@@ -16,7 +16,7 @@ long long solution(int n, vector<int> times) {
         sum = 0; //통과하는 사람 수
         for(int i = 0; i < times.size() ;i++)
         {
-            sum += mid / times[i];
+            sum += mid / (long long)times[i];
         }
         if(sum >= n)//6명이 통과해야하는건데 7명이 통과하면
         {
