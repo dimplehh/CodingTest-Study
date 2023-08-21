@@ -6,7 +6,7 @@ using namespace std;
 long long solution(int n, vector<int> times) {
     long long answer = 0;
     long long min = 1;
-    long long max = (long long)*min_element(times.begin(), times.end()) * n;
+    long long max = (long long)*max_element(times.begin(), times.end()) * n; //왜?
     long long mid;
     long long sum;
 
