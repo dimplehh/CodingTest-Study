@@ -18,7 +18,7 @@ int solution(vector<string> babbling) {
             {
                 if(babble.substr(i, lst[j].size()) == lst[j]) 
                 {
-                    if(temp == babble.substr(i, lst[j].size()))
+                    if(temp == babble.substr(i, lst[j].size()))//직전에 나왔던 옹알이면 넘김.
                         break;
                     length += lst[j].size();
                     temp = lst[j];
@@ -26,7 +26,7 @@ int solution(vector<string> babbling) {
                 }
             }
         }
-        if(length == babble.size())
+        if(length == babble.size()) //해당 옹알이의 문자열 길이와 단어가 나왔을때마다 더한 길이를 비교한다.
             answer++;
     }
     return answer;
