@@ -27,7 +27,7 @@ long long solution(vector<int> weights) {
                 answer += mp[weights[i]] * mp[weights[j]];
             }
         }
-        if(weights[pivot] * 4 < weights[i] * 2)
+        while(weights[pivot] * 4 < weights[i] * 2)
             pivot++;
     }
     return answer;
